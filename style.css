@@ -1,0 +1,326 @@
+.content {
+  max-width: 1250px;
+  margin: auto;
+  padding: 0px 30px;
+}
+
+.babar {
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  padding: 10px 0;
+  transition: all 0.5s ease;
+  background: rgb(115, 138, 243);
+}
+
+.babar .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.babar .menu-list {
+  display: flex;
+}
+
+.babar .logo a {
+  color: aquamarine;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.menu-list li a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.menu-list li a:hover {
+  color: cyan;
+}
+
+.banner {
+  height: 100vh;
+  background: url(img.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.about {
+  padding: 40px 0;
+}
+
+.about .title {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.about p {
+  padding-top: 20px;
+  text-align: justify;
+}
+
+.menu-list li {
+  list-style: none;
+}
+
+.icon {
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+.icon.cancel-btn {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+
+body {
+  background: #170034;
+  height: 91vh;
+}
+
+/*  Navbar */
+.content {
+  max-width: 1250px;
+  margin: auto;
+  padding: 0px 30px;
+}
+
+.babar {
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  padding: 10px 0;
+  transition: all 0.5s ease;
+  background: #1E004F;
+}
+
+.babar .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.babar .menu-list {
+  display: flex;
+}
+
+.babar .logo a {
+  color: aquamarine;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.menu-list li a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.menu-list li a:hover {
+  color: cyan;
+}
+
+.about p {
+  padding-top: 20px;
+  text-align: justify;
+}
+
+.menu-list li {
+  list-style: none;
+}
+
+.icon {
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+.icon.cancel-btn {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+
+.c {
+  color: #fff;
+}
+
+.c2 {
+  color: rgb(240, 237, 237);
+}
+
+.body {
+  height: 100%;
+  background: #170034;
+}
+
+h6 {
+  font-weight: bolder;
+  color: #6800EE;
+  letter-spacing: 1px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h6:after {
+  background-color: #5100B9;
+  width: 165px;
+  height: 3px;
+  content: "";
+  margin-top: 7px;
+  margin-left: 16px;
+  position: absolute;
+}
+
+h1 {
+  font-family: 'Lakki Reddy', cursive;
+  margin-top: 12px;
+}
+
+.h1 {
+  word-spacing: 6px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.content {
+  align-items: center;
+  height: 100%;
+}
+
+p {
+  color: #A49CB0;
+}
+
+.btn1 {
+  font-weight: bold;
+  color: #fff;
+  background: #5100B9;
+  z-index: 1000;
+}
+
+.btn1:hover {
+  color: yellow;
+}
+
+.btn2 {
+  font-weight: bold;
+  color: white;
+  border: 2px solid #5100B9;
+}
+
+.btn2:hover {
+  color: yellow;
+}
+
+.b1 {
+  font-weight: bolder;
+  color: #fff;
+  font-size: 10px;
+  margin-bottom: 20px;
+  background: #5100B9;
+}
+
+.b2 {
+  font-weight: bolder;
+  font-size: 10px;
+  color: #fff;
+  margin-bottom: 20px;
+  border: 2px solid #7104ff;
+}
+
+.bg1 {
+  z-index: 1;
+}
+
+.background1 {
+  position: absolute;
+  margin-left: -98px;
+  margin-top: 16px;
+  z-index: -1;
+}
+
+/*==SECTION TWO==*/
+
+.t2 h1:before {
+  background-color: #5100B9;
+  width: 45px;
+  height: 3px;
+  content: "";
+  position: absolute;
+}
+
+
+.info .i1 {
+  flex-basis: 50%;
+  height: 100%;
+}
+
+.info .i2 {
+  flex-basis: 50%;
+  height: 100%;
+}
+
+i {
+  margin-right: 10px;
+  margin-top: -5px;
+  font-size: 22px;
+  background-color: #5100B9;
+}
+
+
+@media (max-width: 768px) {
+  .body {
+    height: 120vh;
+  }
+
+  h6:after {
+    width: 130px;
+  }
+
+  /* NAVBAR */
+  .icon {
+    display: block;
+  }
+
+  .icon.hide {
+    display: none;
+  }
+
+  .babar .menu-list {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    background: #222;
+    height: 100vh;
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    padding: 40px 0;
+    text-align: center;
+    transition: all 0.5s ease;
+  }
+
+  .babar .menu-list.active {
+    left: 0%;
+  }
+
+  .babar .menu-list li {
+    margin-top: 45px;
+  }
+
+  .babar .menu-list li a {
+    font-size: 23px;
+    transition: 0.6s;
+  }
+}
