@@ -18,7 +18,8 @@
   align-items: center;
   justify-content: space-between;
 }
-.buttons{
+
+.buttons {
   margin-left: 220px;
 }
 
@@ -224,6 +225,12 @@ p {
   z-index: 1;
 }
 
+.bg1 input {
+  width: 325px;
+  height: 35px;
+  margin-top: 10px;
+}
+
 .background1 {
   position: absolute;
   margin-left: -98px;
@@ -259,12 +266,21 @@ i {
   background-color: #5100B9;
 }
 
+.section4 {
+  height: 50%;
+}
+
+footer {
+  background: #1E004F;
+}
+
 
 @media (max-width: 768px) {
   .body {
     height: 120vh;
   }
-  .buttons{
+
+  .buttons {
     margin-left: 0px;
   }
 
@@ -297,6 +313,7 @@ i {
 
   .babar .menu-list.active {
     left: 0%;
+    height: 100%;
   }
 
   .babar .menu-list li {
