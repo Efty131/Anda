@@ -1,3 +1,8 @@
+body {
+  background: #170034;
+  height: 91vh;
+}
+     /*=====NAVBAR====*/
 .content {
   max-width: 1250px;
   margin: auto;
@@ -63,18 +68,6 @@
   top: 20px;
 }
 
-body {
-  background: #170034;
-  height: 91vh;
-}
-
-/*  Navbar */
-.content {
-  max-width: 1250px;
-  margin: auto;
-  padding: 0px 30px;
-}
-
 .babar {
   position: fixed;
   z-index: 5;
@@ -113,11 +106,6 @@ body {
   color: cyan;
 }
 
-.about p {
-  padding-top: 20px;
-  text-align: justify;
-}
-
 .menu-list li {
   list-style: none;
 }
@@ -135,17 +123,10 @@ body {
   top: 20px;
 }
 
-.c {
-  color: #fff;
-}
-
-.c2 {
-  color: rgb(240, 237, 237);
-}
+   /*===SECTION ONE===*/
 
 .body {
   height: 100%;
-  background: #170034;
 }
 
 h6 {
@@ -205,39 +186,6 @@ p {
   color: yellow;
 }
 
-.b1 {
-  font-weight: bolder;
-  color: #fff;
-  font-size: 10px;
-  margin-bottom: 20px;
-  background: #5100B9;
-}
-
-.b2 {
-  font-weight: bolder;
-  font-size: 10px;
-  color: #fff;
-  margin-bottom: 20px;
-  border: 2px solid #7104ff;
-}
-
-.bg1 {
-  z-index: 1;
-}
-
-.bg1 input {
-  width: 325px;
-  height: 35px;
-  margin-top: 10px;
-}
-
-.background1 {
-  position: absolute;
-  margin-left: -98px;
-  margin-top: 16px;
-  z-index: -1;
-}
-
 /*==SECTION TWO==*/
 
 .t2 h1:before {
@@ -248,27 +196,25 @@ p {
   position: absolute;
 }
 
-
-.info .i1 {
-  flex-basis: 50%;
-  height: 100%;
-}
-
-.info .i2 {
-  flex-basis: 50%;
-  height: 100%;
-}
-
 i {
-  margin-right: 10px;
-  margin-top: -5px;
   font-size: 22px;
   background-color: #5100B9;
 }
 
+   /*===SECTION THREE===*/
+
+  input{
+    width: 330px;
+    height: 35px;
+  } 
+
+  /*===SECTION FOUR===*/
+
 .section4 {
   height: 50%;
 }
+    
+      /*====FOOTER=====*/    
 
 footer {
   background: #1E004F;
@@ -288,7 +234,7 @@ footer {
     width: 130px;
   }
 
-  /* NAVBAR */
+    /*============= NAVBAR ===========*/
   .icon {
     display: block;
   }
